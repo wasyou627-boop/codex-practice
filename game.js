@@ -42,8 +42,8 @@ function resetBallAndPaddle() {
   paddleX = (canvas.width - config.paddleWidth) / 2;
   ballX = canvas.width / 2;
   ballY = canvas.height - 52;
-  ballDX = 2;
-  ballDY = -2;
+  ballDX = 4;
+  ballDY = -4;
 }
 
 function resetGame() {
