@@ -1,0 +1,38 @@
+:root {
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  font-family: "Segoe UI", Roboto, "Noto Sans JP", sans-serif;
+  background: #0e1124;
+  color: #e6e9ff;
+}
+
+.game-wrap {
+  text-align: center;
+}
+
+.board-wrap {
+  border: 2px solid #7f89ff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+}
+
+canvas {
+  background: linear-gradient(#11183d, #0f1233);
+  display: block;
+}
+
+.help {
+  margin-top: 0.8rem;
+  opacity: 0.8;
+}
